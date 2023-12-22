@@ -2,7 +2,7 @@ import os
 import shutil
 
 def sort_emails(folder_path):
-    new_folders_path = '../Sortare Emailuri'
+    new_folders_path = ''
     spam_folder = os.path.join(new_folders_path, 'spam')
     non_spam_folder = os.path.join(new_folders_path, 'non-spam')
 
@@ -29,5 +29,5 @@ def sort_emails(folder_path):
 
 if __name__ == "__main__":
     # Înlocuiește calea de mai jos cu calea către folderul tău radacină
-    root_folder_path = r'..\emailuri\lemm_stop'
+    root_folder_path = r'../emails\lemm_stop'
     sort_emails(root_folder_path)
