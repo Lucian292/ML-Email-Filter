@@ -1,12 +1,4 @@
-spam: 432
-non-spam: 2170
-spam/total: 0.166026
-non-spam/total: 0.833974
-
-in non-spam:
-Numar total de cuvinte: 1027509
-Numar cuvinte distincte: 56513
-
-in spam:
-Numar total de cuvinte: 305681
-Numar cuvinte distincte: 11955
+Numarul de fisiere din spam: 432
+Numarul de fisiere din non-spam: 2170
+Raportul numarului de fisiere din spam la numarul total de fisiere: 0.166026
+Raportul numarului de fisiere din non-spam la numarul total de fisiere: 0.833974

@@ -6,7 +6,7 @@ def calculeaza_probabilitate(aparitii, total_cuvinte):
 
 def main():
     # Specifica calea către folderul cu fișierele txt
-    cale_folder = "non-spam"
+    cale_folder = "spam"
 
     total_cuvinte = 0
     cuvinte_distincte = set()
@@ -25,7 +25,7 @@ def main():
                     aparitii_cuvinte.update(cuvinte)
 
         # Calculează probabilitățile și scrie în fișierul de output
-    with open("rezultate_non_spam.txt", "w", encoding="utf-8") as output:
+    with open("rezultate_spam.txt", "w", encoding="utf-8") as output:
         output.write(f"Numar total de cuvinte: {total_cuvinte}\n")
         output.write(f"Numar cuvinte distincte: {len(cuvinte_distincte)}\n")
 

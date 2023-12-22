@@ -29,8 +29,8 @@ def main():
 
     print(f"Numarul de fisiere din {path1}: {numar_fisiere_path1}")
     print(f"Numarul de fisiere din {path2}: {numar_fisiere_path2}")
-    print(f"Raportul numarului de fisiere din {path1} la numarul total de fisiere: {raport_path1:.6f}")
-    print(f"Raportul numarului de fisiere din {path2} la numarul total de fisiere: {raport_path2:.6f}")
+    print(f"Raportul numarului de fisiere din {path1} la numarul total de fisiere: {raport_path1:.10f}")
+    print(f"Raportul numarului de fisiere din {path2} la numarul total de fisiere: {raport_path2:.10f}")
 
 
 if __name__ == "__main__":

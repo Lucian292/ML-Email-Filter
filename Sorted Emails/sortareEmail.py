@@ -29,5 +29,5 @@ def sort_emails(folder_path):
 
 if __name__ == "__main__":
     # Înlocuiește calea de mai jos cu calea către folderul tău radacină
-    root_folder_path = r'../emails'
+    root_folder_path = r'../emails/lemm_stop'
     sort_emails(root_folder_path)
