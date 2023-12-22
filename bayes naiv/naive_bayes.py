@@ -20,7 +20,8 @@ class NaiveBayesClassifier:
         non_spam_word_counts = defaultdict(int)
 
         for doc, label in zip(X, y):
-            for word in doc:
+            for word in set(
+                    doc):  # Utilizează set pentru a evita numărarea aceluiași cuvânt de mai multe ori în același document
                 if label == 1:
                     spam_word_counts[word] += 1
                 else:
@@ -38,14 +39,19 @@ class NaiveBayesClassifier:
             spam_score = math.log(self.class_probs['spam'])
             non_spam_score = math.log(self.class_probs['non_spam'])
 
-            for word in doc:
+            for word in set(doc):  # Utilizează set pentru a itera doar o dată pe fiecare cuvânt în document
                 if word in self.vocab:
-                    # Adăugăm o condiție pentru a trata cuvintele prezente doar într-un tip de clasă
+                    # Protecție împotriva probabilităților zero
                     if self.word_probs[word]['spam'] == 0 and self.word_probs[word]['non_spam'] == 0:
                         continue
 
                     spam_score += math.log(self.word_probs[word]['spam'])
                     non_spam_score += math.log(self.word_probs[word]['non_spam'])
+
+            # Utilizează max pentru a evita underflow în calculele cu logaritmi
+            max_score = max(spam_score, non_spam_score)
+            spam_score -= max_score
+            non_spam_score -= max_score
 
             # Adăugăm o condiție pentru a clasifica un document ca spam numai dacă probabilitatea este semnificativă
             prediction = 1 if spam_score > non_spam_score and spam_score - non_spam_score > math.log(threshold) else 0
