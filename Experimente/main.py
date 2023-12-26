@@ -70,8 +70,8 @@ def train_and_classify(spam_folder, non_spam_folder, test_folder):
                 non_spam_output.write(f'{filename}\n')
 
 # Specificăm căile către folderele cu datele de antrenare și testare
-spam_folder_path = '../Sorted Emails/spam'
-non_spam_folder_path = '../Sorted Emails/non-spam'
+spam_folder_path = '../Sorted Emails/byContent/spam'
+non_spam_folder_path = '../Sorted Emails/byContent/non-spam'
 test_folder_path = '../test data/lemm_stop/part10'
 
 # Antrenăm și clasificăm emailurile

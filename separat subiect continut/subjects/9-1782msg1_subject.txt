@@ -1,0 +1,1 @@
+aspect , eventuality type nominal semantic ; filip , hana
