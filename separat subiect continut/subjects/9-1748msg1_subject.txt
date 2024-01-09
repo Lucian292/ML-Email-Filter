@@ -1,1 +1,0 @@
-summary justice : judge address jury

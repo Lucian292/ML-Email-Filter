@@ -1,1 +1,0 @@
-sum : progressive future reference

@@ -1,1 +1,0 @@
-syntax semitic language ( final program address correction )

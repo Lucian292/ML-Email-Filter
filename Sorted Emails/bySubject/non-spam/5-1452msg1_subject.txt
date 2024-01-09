@@ -1,1 +1,0 @@
-sum : trend development linguistic

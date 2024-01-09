@@ -1,1 +1,0 @@
-q : chess - game king ? ( english )

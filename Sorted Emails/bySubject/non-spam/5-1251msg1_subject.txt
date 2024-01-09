@@ -1,1 +1,0 @@
-summary : ' typewriter ' " canadian " raise

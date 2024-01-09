@@ -1,1 +1,0 @@
-book : nlp : using prolog

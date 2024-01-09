@@ -1,1 +1,0 @@
-syntax semantic tense mood selection

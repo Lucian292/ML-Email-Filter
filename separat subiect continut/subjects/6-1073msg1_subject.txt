@@ -1,1 +1,0 @@
-cfp : workshop spoken language generation multimodal

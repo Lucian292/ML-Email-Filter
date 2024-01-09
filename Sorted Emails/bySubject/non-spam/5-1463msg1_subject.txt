@@ -1,1 +1,0 @@
-sum : vowel length orthography

@@ -1,1 +1,0 @@
-sum : word own opposite , pt . 1

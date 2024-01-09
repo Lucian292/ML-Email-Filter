@@ -1,1 +1,0 @@
-q : process japanese text / database ; word frequency

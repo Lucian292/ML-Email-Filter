@@ -1,1 +1,0 @@
-sum : bann german , " english "

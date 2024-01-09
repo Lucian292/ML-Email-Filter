@@ -1,1 +1,0 @@
-" sycopahnt " " sign fig "

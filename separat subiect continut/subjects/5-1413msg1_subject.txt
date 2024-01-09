@@ -1,1 +1,0 @@
-req : info indian corpus . . .

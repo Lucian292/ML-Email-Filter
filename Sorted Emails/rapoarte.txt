@@ -1,4 +1,0 @@
-Numarul de fisiere din spam: 432
-Numarul de fisiere din non-spam: 2170
-Raportul numarului de fisiere din spam la numarul total de fisiere: 0.166026
-Raportul numarului de fisiere din non-spam la numarul total de fisiere: 0.833974
