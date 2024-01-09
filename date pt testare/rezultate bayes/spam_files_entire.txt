@@ -1,0 +1,15 @@
+spmsgc56.txt
+spmsgc60.txt
+spmsgc61.txt
+spmsgc64.txt
+spmsgc67.txt
+spmsgc70.txt
+spmsgc71.txt
+spmsgc74.txt
+spmsgc75.txt
+spmsgc78.txt
+spmsgc79.txt
+spmsgc88.txt
+spmsgc9.txt
+spmsgc92.txt
+spmsgc95.txt
