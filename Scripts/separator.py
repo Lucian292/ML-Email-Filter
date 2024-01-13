@@ -38,7 +38,6 @@ def process_emails_folder(folder_path, subjects_path, content_path):
                     with open(content_file_path, "w", encoding="utf-8") as content_file:
                         content_file.write(content)
 
-# Specifică căile pentru foldere
 emails_folder_path = r"D:\Universitate\ML\tema practica\ML-Email-Filter\date pt testare\lemm_stop"
 subjects_output_path = r"D:\Universitate\ML\tema practica\ML-Email-Filter\date pt testare\separat subiect continut\subjects"
 content_output_path = r"D:\Universitate\ML\tema practica\ML-Email-Filter\date pt testare\separat subiect continut\content"
